@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.0.0b260514"
+  version: "1.0.0rc3"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/agent-framework-orchestrations/agent_framework_orchestrations-${{ version }}.tar.gz
-  sha256: 81a34917766a28ac8a5d05232562d2b33f59a00d1b0ce5e5166ad34600b9646f
+  sha256: 5144d04b65c1fa3e405690e2dcf05b5c9723fd003b85530ee6ac3c76b81c20d8
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - flit-core <4.0,>=3.11
   run:
     - python >=${{ python_min }}
-    - agent-framework-core <2,>=1.4.0
+    - agent-framework-core <2,>=1.8.0
 
 tests:
   - python:
