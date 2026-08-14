@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "1.0.0rc3"
+  version: "1.1.0"
   python_min: "3.10"
 
 package:
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/a/agent-framework-orchestrations/agent_framework_orchestrations-${{ version }}.tar.gz
-  sha256: 5144d04b65c1fa3e405690e2dcf05b5c9723fd003b85530ee6ac3c76b81c20d8
+  sha256: 4bb3a73b41d471f750c3e2130169ea24961cb3a5946dc66dc9d6a402454ad0f0
 
 build:
   noarch: python
